@@ -8,8 +8,8 @@ Bellow are just a few langs I have my eye on.
 
 | Language     | Last Updated | Learning Track |
 | ------------ | ------------ | -------------- |
-| JavaScript   | null         | 10/100         |
-| TypeScript   | null         | 0/100          |
+| JavaScript   | 3/15/21      | 10/100         |
+| TypeScript   | 3/15/21      | 1/100          |
 | Golang       | 3/16/21      | 2/100          |
 | html / css   | 3/15/21      | 20/100         |
 | React        | 3/15/21      | 9/100          |
