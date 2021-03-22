@@ -9,6 +9,9 @@
 
 // In this example we initialize a variable age with type int:
 
+// ! %s is used to insert strings into ""
+// ! %d is used for inserting numbers into ""
+
 int age;
 
 // A variable name can contain any uppercase or lowercase letter, can contain digits and the underscore character, but it can't start with a  digit. AGE and Age10 are valid variable names, 1age is not.
