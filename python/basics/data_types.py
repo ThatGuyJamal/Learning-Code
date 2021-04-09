@@ -6,7 +6,7 @@ x = int(10)
 
 ### Float - Any Number with a decimal
 
-x = float(20)
+x = float(20.40)
 
 ### String - Any text / charactures surrounded by "" or ''
 
