@@ -16,7 +16,7 @@ Bellow are just a few langs I have my eye on.
 | React        | 3/16/21      | 9/100          |
 | React Native | null         | 0/100          |
 | Rust         | null         | 0/100          |
-| Python       | 4/10/21       | 5/100               |
+| Python       | 4/11/21       | 5/100               |
 | More soon!   |              |                |
 
 The"last updated" simply shows my last data practicing that language. The learning track is how far I am in learning that lang. It's just an estimate though.
