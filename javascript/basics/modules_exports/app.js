@@ -1,0 +1,10 @@
+var data = require('./userData')
+
+console.log("Name:",data.users.name)
+console.log("Email:", data.users.email)
+console.log("id:", data.users.id, "\n")
+console.log("PetId:", data.pets.petID)
+console.log("Pet name:", data.pets.petName)
+console.log("Pet age:", data.pets.petAge)
+console.log("PetOnwer:", data.pets.petOwner, "\n")
+// console.log()
