@@ -6,8 +6,7 @@ import (
 
 func main() {
 	// prints output in string
-	var out = fmt.Sprintf("True or False: %t : ", true)
-	
+	var out = fmt.Sprintf("True or False: %t > ", true)
 
 	fmt.Println(out)
 }
