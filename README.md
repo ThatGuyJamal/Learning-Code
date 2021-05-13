@@ -2,6 +2,8 @@
 
 Hey Everyone! This is just a repo to log my different learnings in porgraming languages.
 
+No projects are located here, for project info view [here](https://github.com/ThatGuyJamal)
+
 ## Languages and FrameWorks
 
 Bellow are just a few langs I have my eye on.
