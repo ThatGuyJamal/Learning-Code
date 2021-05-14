@@ -8,7 +8,10 @@
 
 // ? This function is wrapped into a main() function. The main() function is the entry point of any C program.
 
-int main() {
+
+// void means the function does not take any arguments.
+
+int main(void) {
     printf("Hello, World!");
     return 0;
 }
