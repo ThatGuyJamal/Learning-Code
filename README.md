@@ -12,7 +12,7 @@ Bellow are just a few langs I have my eye on.
 | ------------ | ------------ | -------------- |
 | JavaScript   | 4/13/21      | 17/100         |
 | TypeScript   | 4/7/21       | 2/100          |
-| C Lang       | 3/22/21      | 3/100          |
+| C Lang       | 5/14/21      | 3/100          |
 | Golang       | 5/3/21       | 3/100          |
 | html / css   | 3/15/21      | 20/100         |
 | React        | 3/16/21      | 9/100          |

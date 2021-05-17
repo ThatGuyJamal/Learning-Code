@@ -2,3 +2,5 @@ node_modules
 config.json
 yarn.lock
 build
+# ignores all c exe files
+*.exe
