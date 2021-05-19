@@ -17,7 +17,7 @@ Bellow are just a few langs I have my eye on.
 | html / css   | 3/15/21      | 20/100         |
 | React        | 3/16/21      | 9/100          |
 | React Native | null         | 0/100          |
-| Rust         | null         | 0/100          |
+| Rust         | 5/19/21      | 1/100          |
 | Python       | 4/11/21      | 5/100          |
 | More soon!   |              |                |
 
