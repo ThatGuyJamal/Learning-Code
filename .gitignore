@@ -2,5 +2,7 @@ node_modules
 config.json
 yarn.lock
 build
+.vscode
+dist
 # ignores all c exe files
 *.exe
