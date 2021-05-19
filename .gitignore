@@ -1,8 +1,15 @@
+# node
 node_modules
 config.json
 yarn.lock
 build
-.vscode
 dist
-# ignores all c exe files
+# system
+.vscode
+
+# rust
+target
+main.pdb
+
+# ignores all exe files
 *.exe

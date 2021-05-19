@@ -1,0 +1,17 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+		"build": "tsc",
+		"start": "ts-node-dev --respawn ./index.ts",
+		"dev": "nodemon --exec ts-node ./index.ts"
+	}
+}
