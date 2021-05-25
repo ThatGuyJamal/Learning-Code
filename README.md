@@ -11,7 +11,7 @@ Bellow are just a few langs I have my eye on.
 | Language     | Last Updated | Learning Track |
 | ------------ | ------------ | -------------- |
 | JavaScript   | 5/17/21      | 17/100         |
-| TypeScript   | 4/7/21       | 2/100          |
+| TypeScript   | 5/25/21       | 2/100          |
 | C Lang       | 5/14/21      | 3/100          |
 | Golang       | 5/3/21       | 3/100          |
 | html / css   | 3/15/21      | 20/100         |
