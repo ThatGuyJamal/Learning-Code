@@ -1,7 +1,15 @@
-var exmaple: String = "TypeScript is cool!"
+// ! Data Types
 
-var x: Function  = () => {
-  return exmaple
+// String - any letter and number that have no value
+// Numbers - ints
+// Boolean - True or false
+
+// var
+// let
+// const =
+
+let x = (): Function | void => {
+  return void {
+    "TS": "> JS"
+  }
 }
-
-console.log(x())
