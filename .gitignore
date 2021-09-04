@@ -6,6 +6,7 @@ build
 dist
 # system
 .vscode
+.vs
 
 # rust
 target
@@ -13,3 +14,7 @@ main.pdb
 
 # ignores all exe files
 *.exe
+
+# csharp files
+bin
+obj
