@@ -8,8 +8,10 @@
 // let
 // const =
 
-let x = (): Function | void => {
-  return void {
-    "TS": "> JS"
-  }
+type customStringType = string | string[]
+
+let x = (): customStringType => {
+	return "TS > JS"
 }
+
+console.log(x) // [Function: x]
