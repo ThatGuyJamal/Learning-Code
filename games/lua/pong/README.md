@@ -1,9 +1,3 @@
-# learning-game-dev
+# Pong 
 
-A repo to hold all my games I made while learning CS50 Intro to game dev.
-
-Not sure if I like gaming games yet, we will see.
-
-## Games 
-
-- Pong
+A simple game made in lua following cs50 game dev lecture 
