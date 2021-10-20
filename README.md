@@ -19,7 +19,7 @@ Bellow are just a few langs I have my eye on.
 | React Native | null         | 0/100          |
 | Rust         | 5/19/21      | 1/100          |
 | Python       | 4/11/21      | 5/100          |
-| lua!         | 10/18/21     | 1/100          |
+| lua!         | 10/19/21     | 4/100          |
 | csharp       | 9/07/21      | 1/100          |
 | More soon!   |              |                |
 
