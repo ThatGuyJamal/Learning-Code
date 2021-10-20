@@ -1,11 +1,11 @@
-package main
+package vars
 
 // importing the fmt package for logging to the console
 import (
 	"fmt"
 )
 
-func main() {
+func some() {
 
 	// an int value
 	var number uint16 = 260
@@ -16,4 +16,3 @@ func main() {
 
 	fmt.Println(text, number)
 }
-

@@ -1,4 +1,4 @@
-package main
+package ss
 
 // importing the fmt package for logging to the console
 import (
@@ -6,7 +6,7 @@ import (
 )
 
 //Starting a runtime function
-func main() {
+func ddhelo() {
 	// Printing "hello world!"
 	fmt.Println("Hello World!")
 }

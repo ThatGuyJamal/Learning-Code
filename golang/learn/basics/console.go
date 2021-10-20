@@ -1,10 +1,10 @@
-package main
+package console
 
 import (
 	"fmt"
 )
 
-func main() {
+func css() {
 	// prints output in string
 	var out = fmt.Sprintf("True or False: %t > ", true)
 
