@@ -9,20 +9,20 @@
 
 #? priting Basic Shape
 
-# puts "   /|"
-# puts "  / |"
-# puts " /  |"
-# puts "/___|"
+puts "   /|"
+puts "  / |"
+puts " /  |"
+puts "/___|"
 
 #? Variables
 
-# age = '28'
-# name = 'Zed'
+age = '28'
+name = 'Zed'
 
-# puts ("There was a man named " + name)
-# puts ("He wored very hard the last " + age + " years of his life")
-# puts ('Sometimes he wishes he would have worked harder.')
-# puts ("Then maybe the last " + age + " would have been worth it...")
+puts ("There was a man named " + name)
+puts ("He wored very hard the last " + age + " years of his life")
+puts ('Sometimes he wishes he would have worked harder.')
+puts ("Then maybe the last " + age + " would have been worth it...")
 
 #? Data types
 
@@ -36,38 +36,38 @@
 #? String functions
 
 # # Upercase - invert string method to upcase
-# this_string = 'Hello World'
+this_string = 'Hello World'
 
-# puts this_string.upcase()
+puts this_string.upcase()
 
 # # Downcase - lower string method to lower string
-# this_string = 'Hello World'
+this_string = 'Hello World'
 
-# puts this_string.downcase()
+puts this_string.downcase()
 
 # # Stip - to remove white space in strings
-# this_string = '   Hello World'
+this_string = '   Hello World'
 
-# puts this_string.strip()
+puts this_string.strip()
 
 # # length - Shows the lenth of the string
-# this_string = 'Hello World'
+this_string = 'Hello World'
 
-# puts this_string.length()
+puts this_string.length()
 
 # # include - checks if something is in your string
-# this_string = 'Hello World'
+this_string = 'Hello World'
 
-# puts this_string.include? 'World'
+puts this_string.include? 'World'
 
 # # Charature pos checking
-# this_string = 'Hello World'
+this_string = 'Hello World'
 
-# puts this_string[0, 5]
+puts this_string[0, 5]
 
 # # Index - Checks the index position of the string character
-# this_string = 'Hello World'
+this_string = 'Hello World'
 
-# puts this_string.index('H')
+puts this_string.index('H')
 
 #? Math and Numbers
