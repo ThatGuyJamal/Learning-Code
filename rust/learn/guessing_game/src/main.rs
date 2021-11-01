@@ -31,7 +31,7 @@ fn main() {
 
         // converting guess from a number to a strings
         let guess: u32 = match guess.trim().parse() {
-            // this line allows use to use the guess.cpm line below
+            // this line allows us to use the guess.cpm line below
             Ok(num) => num,
             Err(_) => continue,
         };
