@@ -19,21 +19,21 @@ fn main() {
     loop {
         println!("Please input your guess!");
 
-        // The mut jey word allows a variable to be mutable. It must be used with mut in rust.
+        // The mut jey word allows a variable to be mutable.
         let mut guess: String = String::new();
 
         // using the lib
         io::stdin()
-            .read_line(&mut guess) // reading the line and assining input to var guess
-            .expect("Failed to read line!"); // catching the error
+            .read_line(&mut guess) // reading the line and assigning input to var guess
+            .expect("I failed to read your answer!"); // catching the error
 
         println!("You guessed: {} ", guess); // after input is taken in, we output the user guess!
 
         // converting guess from a number to a strings
         let guess: u32 = match guess.trim().parse() {
             // this line allows us to use the guess.cpm line below
-            Ok(num) => num,
-            Err(_) => continue,
+            Ok(num) => num, // checks if guess input was a number
+            Err(_) => continue, // if the input was not type number, continue program
         };
 
         match guess.cmp(&secret_number) {
