@@ -6,7 +6,7 @@
     Run the file with: lua ./tutorial.lua
 ]]
 
-print("My first " .. "lua code!")
+print("We love " .. "lua code!")
 
 -- a little fun ;)
 
