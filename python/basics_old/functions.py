@@ -35,7 +35,7 @@ def func(*args, **kwargs):
 
 x = [1, 2, 3, 4, 5, 6, 7]
 
-# unpacks x and passes them to the print statment
+# unpacks x and passes them to the print statement
 
 print(x)  # [1, 2, 3, 4, 5, 6, 7]
 print(*x)  # 1 2 3 4 5 6 7
