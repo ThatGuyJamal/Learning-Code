@@ -1,4 +1,4 @@
-## Data Types in puthon
+## Data Types in python
 
 ### Int - Any whole number without a decimal point
 
@@ -8,7 +8,7 @@ x = int(10)
 
 x = float(20.40)
 
-### String - Any text / charactures surrounded by "" or ''
+### String - Any text / characters surrounded by "" or ''
 
 x = "hello", x = 'world'
 

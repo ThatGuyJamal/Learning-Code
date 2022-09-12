@@ -6,13 +6,12 @@ try:
 except:
     print("Invalid PIN, please only use numbers!")
     print("Try making a password")
- 
+
 text_pass = input("Password: ")
 
-try: 
+try:
     pass_check = str(text_pass)
 except:
     print("Invalid password, Try again!")
 
-
-# basily a try catch like javascript.
+# basically a try catch like javascript.
