@@ -3,5 +3,5 @@
 jamal = 'jamal'
 q = 'eat sleep code repeat'
 
-x  = f'{jamal} {q}'
+x = f'{jamal} {q}'
 print(x)

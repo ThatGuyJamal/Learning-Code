@@ -7,16 +7,16 @@ result = x / y
 
 # division returns float 
 
-# exmaple: x / y = 5.0
+# example: x / y = 5.0
 
 # ? To remove the decimal for any reason, add // to the operation.
 
-# exmaple x / y = 5
+# example x / y = 5
 
 x = 5
 y = 4
 
-result = (x % y) * 2 # result 2
+result = (x % y) * 2  # result 2
 
 print(result)
 

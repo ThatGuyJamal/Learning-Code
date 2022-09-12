@@ -2,7 +2,7 @@ hello = 'hello'
 
 # check for types
 
-print(type(hello)) # <class 'str' >
+print(type(hello))  # <class 'str' >
 
 # methods
 
@@ -11,7 +11,7 @@ print(type(hello)) # <class 'str' >
 # .capitalize() - only works on strings | changes first char str to uppercase
 # .count() - only works on strings | shows a count in str
 
-hello = 'hello'.upper() 
+hello = 'hello'.upper()
 
 # or 
 
@@ -22,4 +22,4 @@ print(hello.upper().count('H'))
 x = 'hello'
 y = 3
 
-print( x * y)
+print(x * y)
