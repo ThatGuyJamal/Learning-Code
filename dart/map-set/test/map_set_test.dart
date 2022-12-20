@@ -2,7 +2,7 @@ import 'package:map_set/map_set.dart';
 import 'package:test/test.dart';
 
 void main() {
-  test('calculate', () {
-    expect(calculate(), 42);
+  test('list', () {
+    expect(reverseList([1, 2, 3]), [3, 2, 1]);
   });
 }
