@@ -1,15 +1,19 @@
+// Ads a number to another number
 int addNumbers(int a, int b) {
   return a + b;
 }
 
+// Subtracts a number from another number
 int subtractNumbers(int a, int b) {
   return a - b;
 }
 
+// Multiplies a number by another number
 int multiplyNumbers(int a, int b) {
   return a * b;
 }
 
+// Divides a number by another number
 double divideNumbers(int a, int b) {
   return a / b;
 }
