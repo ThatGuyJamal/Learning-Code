@@ -22,13 +22,20 @@ void serveHttpServer() async {
       onNotFound: missingHandler,
       logLevel: LogType.info);
 
-  // Path to this Dart file
+  // Path to the html file
   String dir = File(Platform.script.path).parent.path;
 
   // print(dir);
 
+  // The full path to the html file, after getting the parent directory of this os
+  final File pathToHtml = File('$dir/src/chat-client.html');
+
+  print(pathToHtml);
+
   // Deliver web client for chat
-  app.get('/', (req, res) => File('$dir/src/chat-client.html'));
+  app.get('/*', (req, res) => pathToHtml);
+
+  app.get('/hello', (req, res) => 'Hello World!');
 
   // Track connected clients
   List<WebSocket> users = [];
@@ -41,22 +48,27 @@ void serveHttpServer() async {
         for (var user in users.where((user) => user != ws)) {
           user.send('A new user joined the chat.');
         }
+        print(ws);
       },
       onClose: (ws) {
         users.remove(ws);
         for (var user in users) {
           user.send('A user has left.');
         }
+        print(ws);
       },
       onMessage: (ws, dynamic data) async {
         for (var user in users) {
           user.send(data);
         }
+        print(ws);
       },
     );
   });
 
-  final server = await app.listen();
+  var port = 8080;
+
+  final server = await app.listen(port);
 
   print('Listening at http://${server.address.host}:${server.port}');
 }
