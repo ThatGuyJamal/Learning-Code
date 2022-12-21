@@ -1,8 +1,9 @@
-import 'package:classes/classes.dart';
+import 'dart:ffi';
+
 import 'package:test/test.dart';
 
 void main() {
-  test('calculate', () {
-    expect(calculate(), 42);
+  test('', () {
+    expect(() => {}, throwsA(isA<UnimplementedError>()));
   });
 }
