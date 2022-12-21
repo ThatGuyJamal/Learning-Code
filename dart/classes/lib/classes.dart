@@ -1,15 +1,14 @@
 class SolarSystem {
-  String name = 'Dart Solar System';
-  List<Planet> planets = [];
+  String name;
+  List<Planet> planets;
 
-  SolarSystem(this.name) {
+  SolarSystem(this.name, this.planets) {
     // print('Loading Solar System: $name');
   }
 }
 
 class Planet {
   @override
-  // ignore: override_on_non_overriding_member
   String name;
 
   Planet(this.name) {
@@ -18,17 +17,20 @@ class Planet {
 }
 
 void main() {
-  var solarSystem = SolarSystem('Dart Solar System');
-
-  solarSystem.planets.add(Planet('Mercury'));
-  solarSystem.planets.add(Planet('Venus'));
-  solarSystem.planets.add(Planet('Earth'));
-  solarSystem.planets.add(Planet('Mars'));
-  solarSystem.planets.add(Planet('Jupiter'));
-  solarSystem.planets.add(Planet('Saturn'));
-  solarSystem.planets.add(Planet('Uranus'));
-  solarSystem.planets.add(Planet('Neptune'));
-  solarSystem.planets.add(Planet('Pluto'));
-
+  var solarSystem = SolarSystem('Dart Solar System', [
+    Planet('Mercury'),
+    Planet('Venus'),
+    Planet('Earth'),
+    Planet('Mars'),
+    Planet('Jupiter'),
+    Planet('Saturn'),
+    Planet('Uranus'),
+    Planet('Neptune'),
+    Planet('Pluto'),
+  ]);
   print('Solar System: ${solarSystem.name}');
+
+  for (var planet in solarSystem.planets) {
+    print('Planet: ${planet.name}');
+  }
 }
