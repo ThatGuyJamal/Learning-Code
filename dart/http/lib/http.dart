@@ -7,13 +7,33 @@ void main() async {
 
   app.get('/', (req, res) {
     res.headers.contentType = ContentType.html;
-    return '<html><body><h1>Hello, World!</h1></body></html>';
+    return getMainBody();
   });
 
   app.get('/html', (req, res) {
     res.headers.contentType = ContentType.html;
-    return '<html><body><h1>Hello, /html!</h1></body></html>';
+    return getHtmlBody();
   });
 
   await app.listen(); //Listening on port 3000
+}
+
+String getMainBody() {
+  return '''
+  <html>
+    <body>
+      <h1>Hello, World!</h1>
+    </body>
+  </html>
+  ''';
+}
+
+String getHtmlBody() {
+  return '''
+  <html>
+    <body>
+      <h1>Hello, /html!</h1>
+    </body>
+  </html>
+  ''';
 }
