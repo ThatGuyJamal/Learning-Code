@@ -1,0 +1,9 @@
+# Runs the dart compile js command
+compile_dart_to_js:
+	@echo Compiling Dart to JS
+	@dart compile js ./lib/http.dart -o ./out/http.js
+
+# Runs the compiled JS
+run_compiled_js:
+	@echo Running compiled JS
+	@node ./js/http
