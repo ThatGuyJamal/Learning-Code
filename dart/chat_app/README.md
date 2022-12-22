@@ -1,2 +1,1 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+Add moved to this repo - https://github.com/ThatGuyJamal/Totally-Not-Illegal-Chat-App
