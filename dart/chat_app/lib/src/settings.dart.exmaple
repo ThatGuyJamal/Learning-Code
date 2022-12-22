@@ -1,0 +1,6 @@
+// A map of our config settings
+Map<String, String> settings = {
+  'mongodb_url':
+      "",
+  'mongodb_db_collection': 'messages',
+};
