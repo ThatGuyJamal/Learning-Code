@@ -1,4 +1,5 @@
 // Clears the console screen
+// note: this was only tested in windows
 fn clear_screen() {
     // Clears the console screen
     print!("{}[2J", 27 as char);
