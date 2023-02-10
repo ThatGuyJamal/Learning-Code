@@ -36,7 +36,7 @@ fn main() {
     // The gl object stores shaders and buffers that the OpenGL backend for Piston-Graphics needs to talk with the GPU.
     let mut gl = GlGraphics::new(opengl);
 
-    let gameboard = Gameboard::new();
+    let gameboard = Gameboard::load_sdm("static/puzzle.sdm");
     let mut gameboard_controller = GameboardController::new(gameboard);
     let gameboard_view_settings = GameboardViewSettings::new();
     let gameboard_view = GameboardView::new(gameboard_view_settings);

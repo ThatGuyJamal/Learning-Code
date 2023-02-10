@@ -18,7 +18,7 @@ impl GameboardController {
     /// Creates a new gameboard controller.
     pub fn new(gameboard: Gameboard) -> GameboardController {
         GameboardController {
-            gameboard: gameboard,
+            gameboard,
             selected_cell: None,
             cursor_pos: [0.0; 2],
         }
@@ -56,6 +56,7 @@ impl GameboardController {
                     Key::D7 => self.gameboard.set(ind, 7),
                     Key::D8 => self.gameboard.set(ind, 8),
                     Key::D9 => self.gameboard.set(ind, 9),
+                    Key::Backspace => self.gameboard.set(ind, 0),
                     _ => {}
                 }
             }
