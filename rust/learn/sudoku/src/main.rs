@@ -19,7 +19,7 @@ mod gameboard_view;
 fn main() {
     let opengl = OpenGL::V3_2;
 
-    let settings = WindowSettings::new("Sudoku", (640, 480))
+    let settings = WindowSettings::new("Sudoku", (430, 420))
         .exit_on_esc(true)
         // tells the window backend which OpenGL version to use:
         .graphics_api(opengl)
