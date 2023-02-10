@@ -6,8 +6,14 @@ fn main() {
     // The arguments collected from the command input
     let args: Vec<String> = env::args().collect();
 
-    if !args.len() > 1 {
+    if !args.len() < 1 {
         println!("No arguments passed to the calculator");
+        print_args_error();
+        process::exit(0);
+    }
+
+    if args.len() > 4 {
+        println!("To many arguments passed to the calculator!");
         print_args_error();
         process::exit(0);
     }
@@ -20,9 +26,9 @@ fn main() {
     match input_one.as_str() {
         // Handles the addition operations
         "+" => handle_add(input_two, input_three),
-        // Handles the substraction operations
+        // Handles the subtraction operations
         "-" => handle_sub(input_two, input_three),
-        // Handles the multiplcation operations
+        // Handles the multiplication operations
         "*" => handle_mul(input_two, input_three),
         // Handles the division operations
         "/" => handle_div(input_two, input_three),
@@ -37,7 +43,7 @@ fn main() {
 fn convert_string_to_f32(string: &String) -> f32 {
     match string.parse::<f32>() {
         Ok(num) => num,
-        Err(err) => panic!("The string could not be parsed to an i32: {err}"),
+        Err(err) => panic!("{}", err),
     }
 }
 
@@ -66,13 +72,13 @@ fn handle_add(number_one: &String, number_two: &String) {
     println!("The result of the addition: {}", sum)
 }
 
-// Substracts two inputs
+// Subtracts two inputs
 fn handle_sub(number_one: &String, number_two: &String) {
     let sum = sub(
         convert_string_to_f32(number_one),
         convert_string_to_f32(number_two),
     );
-    println!("The result of the substraction is: {}", sum)
+    println!("The result of the subtraction is: {}", sum)
 }
 
 // Multiples two inputs
@@ -94,7 +100,7 @@ fn handle_div(number_one: &String, number_two: &String) {
 }
 
 fn print_args_error() {
-    println!("Exmaple:");
+    println!("Example:");
     println!("List of valid operations: +, -, *, /");
     println!("cargo run -- + 6 9 // result = 15")
 }
