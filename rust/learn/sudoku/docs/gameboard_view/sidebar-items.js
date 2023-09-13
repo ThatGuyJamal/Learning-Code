@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":[["color_cell","color an individual cell in the grid"]],"struct":[["GameboardView","Stores visual information about a gameboard."],["GameboardViewSettings","Stores gameboard view settings."]]};

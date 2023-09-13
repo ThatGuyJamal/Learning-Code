@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":[["GameboardController","Handles events for Sudoku game."]]};
