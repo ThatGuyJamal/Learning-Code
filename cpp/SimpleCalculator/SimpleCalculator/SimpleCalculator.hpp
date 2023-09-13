@@ -19,4 +19,4 @@ void formatOutput(double result, char op);
 
 void printLineBreak();
 
-bool isDouble(std::string input);
+bool isValidInput(std::string input);
